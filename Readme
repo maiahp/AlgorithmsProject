@@ -1,0 +1,31 @@
+ReadMe
+
+
+Run scripts                             
+# ./run_it_all.sh 
+# Runs basic and efficient algorithms on files in ./datapoints
+
+# ./basic.sh inputfile outputfile
+# Runs basic algorithm on inputfile, with result in outputfile
+
+# ./efficient.sh inputfile outputfile
+# Runs efficient algorithm on inputfile, with result in outputfile
+
+py files
+# basic_3.py 
+# Contains basic algorithm
+
+# efficient_3.py
+# Contains efficient algorithm
+
+# processfile.py
+# grabs data from input and output files in ./SampleTestCases
+
+# main.py
+# unit testing program with different tests to ensure correctness of program
+
+# plotter.py
+# After running ./run_it_all.sh grabs output data from the output files created(in out_basic and out_efficient folders) and presents it for easy copy and paste for plotting 
+# Note: printed in form: (m+n, time_data_basic, time_data_efficient)
+                     and (m+n, memory_data_basic, memory_data_efficient)
+# Run as: python3 plotter.py

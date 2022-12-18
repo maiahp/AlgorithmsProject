@@ -1,5 +1,15 @@
 ReadMe
 
+This repository contains the solution to the sequence alignment problem for strings X and Y. Note that len(X) = n, len(Y) = m.
+The basic_3.py file is the dynamic programming solution with O(m*n) space.
+The efficient_3.py file is the memory efficient solution, which uses Divide and Conquer with Dynamic Programming in the divide step, with O(n) space.
+
+Mem-Efficient Algorithm High-Level Overview:
+1. Handle Base Cases
+2. Split string X into halves X_l, X_r
+   Find the optimal split point of string Y: Y_l, Y_r which matches with X_l, X_r in the cheapest way
+3. Combine Result
+
 
 Run scripts                             
 # ./run_it_all.sh 
